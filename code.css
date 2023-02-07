@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+html,
+body {
+    margin: 0;
+    height: 100%;
+    overflow: hidden;
+    font-family: 'Roboto', sans-serif;
+}
+
+.upper {
+    display: flex;
+    width: 100%;
+    height: 80%;
+}
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+}
+
+.logo {
+    width: 70%;
+    margin: 0px auto;
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.head-2 {
+    margin-top: 15px;
+}
+
+.list {
+    list-style: none;
+}
+
+.list li {}
+
+.list li i {
+    margin: 10px;
+}
+
+.list li img {
+    height: 18px;
+    width: 18px;
+    margin: 10px;
+}
+
+.vertical {
+    background-color: black;
+    width: 3px;
+    height: 81%;
+    color: black;
+    position: absolute;
+    left: 250px;
+    top: 0;
+}
+
+.content {
+    width: 70%;
+    align-items: center;
+    justify-content: center;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.head-conent {
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+}
+
+.head-conent div {
+    display: flex;
+    margin: 5px;
+}
+
+.head-conent div i {
+    margin: 5px;
+}
+
+.song {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(235, 235, 235);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin: 27px;
+    align-items: center;
+    justify-content: center;
+}
+
+.music-content {
+    display: flex;
+    flex-wrap: wrap;
+    width: 120%;
+    margin-left: -30px;
+}
+
+.song img {
+    width: 120px;
+    height: 130px;
+    border-radius: 5px;
+}
+
+.player {
+    display: flex;
+}
+
+.current-song {
+    display: flex;
+    align-items: center;
+    width: 30%;
+}
+
+.current-song-img {
+    width: 80px;
+    height: 80px;
+    margin-left: 10px;
+    margin-top: -40px;
+}
+
+.current-song-name {
+    margin-left: 10px;
+    margin-top: -30px;
+}
+
+.player--1 {
+    display: flex;
+    width: 70%;
+    justify-content: center;
+}
+
+.player-img {
+    width: 306px;
+    height: 244px;
+    margin-top: -84px;
+}
+
+.recents {
+    margin-top: 40px;
+}
+
+.recent {
+    width: 100%;
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 10px;
+}
+
+.cover {
+    width: 50px;
+    height: 50px;
+}
+
+.new {
+    display: flex;
+    margin: 20px 0px;
+}
+
+.details {
+    width: 95%;
+    background-color: rgb(237, 234, 222);
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Poppins', sans-serif;
+}
+
+.name {
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.artist {
+    font-size: 10px;
+    margin-left: 10px;
+}
+
+.pause {
+    width: 51px;
+    height: 40px;
+    margin: 5px 10px;
+}
